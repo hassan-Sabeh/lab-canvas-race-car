@@ -29,7 +29,7 @@ function draw() {
   //
   // Iteration 2: car drawing
   //
-  car = new Car(450, 1450);
+  car.draw()
   // TODO
 
   //
@@ -76,8 +76,9 @@ function startGame() {
   }
 
   // TODO
+  car = new Car(450, 1450);
   animLoop();
-  car.draw();
+  
 }
 
 document.getElementById("start-button").onclick = function() {
